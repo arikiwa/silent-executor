@@ -1,0 +1,66 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #0f0f0f;
+  color: #fff;
+  transition: background 0.3s, color 0.3s;
+}
+
+.light-mode {
+  background: #f0f0f0;
+  color: #111;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #0ff;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #aaa;
+}
+
+.features {
+  padding: 2rem;
+  text-align: center;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  margin: 1rem 0;
+}
+
+.actions {
+  text-align: center;
+  padding: 1rem;
+}
+
+.btn {
+  margin: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: #0ff;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 0 10px #0ff;
+  transition: transform 0.2s, box-shadow 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #0ff;
+}
