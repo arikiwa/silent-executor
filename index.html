@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Silent Executor</title>
 
-  <!-- Custom Font from Google Fonts -->
+  <!-- Hacker Font -->
   <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
 
   <style>
@@ -32,7 +32,7 @@
       height: 100vh;
       overflow: hidden;
       text-align: center;
-      backdrop-filter: blur(3px); /* Motion blur effect */
+      backdrop-filter: blur(3px);
     }
 
     h1 {
@@ -41,12 +41,6 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       margin-bottom: 1rem;
-    }
-
-    p {
-      font-size: 1.1rem;
-      max-width: 500px;
-      opacity: 0.85;
     }
 
     .btn {
@@ -66,25 +60,19 @@
       transform: scale(1.05);
     }
 
-    .link {
-      margin-top: 1.4rem;
-      font-size: 1rem;
-      color: var(--accent);
-      text-decoration: none;
-    }
-
-    .link:hover {
-      text-decoration: underline;
+    audio {
+      display: none;
     }
   </style>
 </head>
 <body>
   <h1>SILENT EXECUTOR</h1>
-  <p>Fast injection. Flawless execution.<br>Dark, silent, aesthetic.</p>
 
   <a href="https://dc.gg/silence" target="_blank" class="btn">Join Discord</a>
-  <br>
-  <a href="./Silent.zip" class="link" download>⬇️ Download Silent Executor</a>
+
+  <!-- Background ambient music -->
+  <audio autoplay loop>
+    <source src="silent_chill_loop.mp3" type="audio/mpeg">
+  </audio>
 </body>
 </html>
-
